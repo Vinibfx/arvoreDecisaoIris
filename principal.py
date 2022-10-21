@@ -1,7 +1,7 @@
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier 
 import pandas as pd
-dados = pd.read_csv('/content/drive/MyDrive/2022/IA-Engenharia/florestaRandomica/Iris.csv')
+dados = pd.read_csv('Iris.csv')
 
 classes = dados['Species']
 nomesColunas = dados.columns.to_list()
