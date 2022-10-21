@@ -1,5 +1,5 @@
 import streamlit as st
 
 st.title('Aplicativo de IA')
-nome = st.input_text('Digite o seu nome:')
+nome = st.text_input('Digite o seu nome:')
 st.write('Bem vindo(a)',nome,'ao seu primerio aplicativo')
