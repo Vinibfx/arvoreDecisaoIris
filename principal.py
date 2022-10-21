@@ -27,5 +27,8 @@ SepalWidthCm = st.number_input('Digite a largura do caule')
 PetalLengthCm = st.number_input('Digite o comprimento da petala')	 
 PetalWidthCm = st.number_input('Digite a largura da petala')	
 if st.button('Clique aqui') :
+  floresta.predict([SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm])
    st.write('Bem vindo(a)',nome,'ao seu primerio aplicativo')
+    
+    
 
